@@ -1,0 +1,125 @@
+body{}
+header{
+	background: #24221d;
+	font-family: forte;
+	font-size: 28px;
+	color: white;
+	text-transform: uppercase;
+}
+header span{
+	    color: white;
+}
+header ul li a{
+	color: white !important;
+	margin: 0px 15px;
+}
+.about{
+    background: #ffffff;
+    text-align: center;
+    color: #24221d;
+    padding: 83px 0;
+}
+.about-us{}
+.about-us h1{
+    font-size: 40px;
+    font-family: forte;
+    text-transform: uppercase;
+}
+.about-us p{
+    font-size: 28px;
+    font-family: Myriad Pro;
+    margin: 20px 50px;
+}
+.book{
+    background: #282828;
+    padding: 40px 0;
+}
+.book-img{
+    padding: 0 35px;
+}
+.book-img img {
+    box-sizing: border-box;
+    box-shadow: 20px 20px 25px 15px #11100e;
+}
+.challenge-section{
+    padding: 50px 0;
+}
+.challenge-content{}
+.challenge-content h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: forte;
+    text-transform: uppercase;
+}
+.challenge-img{}
+.challenge-img img{}
+.challenge-content-p{
+    font-family: Myriad Pro;
+    padding: 40px 0px;
+}
+.challenge-content-p img{
+    float: left;
+    margin: 0 0;
+    padding-right: 60px;
+    padding-top: 0px;
+    /* padding-bottom: 90px; */
+}
+.challenge-content-p p{
+	text-align: left;
+	font-size: 20px;
+}
+.contact{
+	background-image: url(../images/books.jpg);
+	padding: 50px 0;
+}
+.contact-us{text-align: center;}
+.contact-us .form-group{width: 100%;padding: 5px 18%;}
+.contact-us h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: forte;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.contact-us .form-control{
+    font-size: 28px;
+    font-family: Hobo Std;
+    color: #908e8b;
+    border-radius: inherit;
+    padding: 5px 20px;
+    background: #e2dedd;
+}
+.contact-us button {
+}
+.contact-us .sent-button{
+	font-family: Hobo Std;
+	font-size: 36px;
+	padding: 0px 40px;
+	background: #24221d;
+	color: #ffffff;
+}
+.contact-us span{
+}
+footer{
+    background: #393630;
+    color: #ffffff;
+    font-size: 32px;
+    font-family: Hobo Std;
+    padding: 0px 0;
+    overflow: hidden;
+}
+.footer-content{
+    padding: 20px 0;
+}
+.copyright{
+    float: left;
+}
+.copyright p{}
+.made{
+    float: right;
+}
+.made p{}
+.made p span{
+    color: red;
+}
