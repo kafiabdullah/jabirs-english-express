@@ -1,17 +1,26 @@
+@font-face{
+    font-family: Forte;
+    src: url(../font/Forte.ttf);
+    font-style: normal;
+}
 body{}
 header{
-	background: #24221d;
-	font-family: forte;
-	font-size: 28px;
-	color: white;
-	text-transform: uppercase;
+    background: #24221d;
+    font-family: forte;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14pt;
+}
+header a img{
+    width: 60px;
 }
 header span{
-	    color: white;
+        color: white;
 }
 header ul li a{
-	color: white !important;
-	margin: 0px 15px;
+    color: white !important;
+    margin: 0px 15px;
 }
 .about{
     background: #ffffff;
@@ -21,12 +30,12 @@ header ul li a{
 }
 .about-us{}
 .about-us h1{
-    font-size: 40px;
+    font-size: 20pt;
     font-family: forte;
     text-transform: uppercase;
 }
 .about-us p{
-    font-size: 28px;
+    font-size: 14pt;
     font-family: Myriad Pro;
     margin: 20px 50px;
 }
@@ -47,7 +56,7 @@ header ul li a{
 .challenge-content{}
 .challenge-content h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 20pt;
     font-family: forte;
     text-transform: uppercase;
 }
@@ -62,28 +71,41 @@ header ul li a{
     margin: 0 0;
     padding-right: 60px;
     padding-top: 0px;
-    /* padding-bottom: 90px; */
 }
 .challenge-content-p p{
-	text-align: left;
-	font-size: 20px;
+    text-align: left;
+    font-size: 14pt;
+    padding: 25px 0;
+    font-family: Myriad Pro;
 }
 .contact{
-	background-image: url(../images/books.jpg);
-	padding: 50px 0;
+    background-image: url(../images/books.jpg);
+    /* padding: 50px 0; */
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 100%;
 }
-.contact-us{text-align: center;}
+.contact-overlay{
+    position: absolute;
+    opacity: .6;
+    height: 100%;
+    width: 100%;
+    background: #242f1d;
+}
+.contact-us{text-align: center;padding-top: 40px;padding-bottom: 50px;}
 .contact-us .form-group{width: 100%;padding: 5px 18%;}
 .contact-us h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 20pt;
     font-family: forte;
     text-transform: uppercase;
     color: #ffffff;
     padding-bottom: 20px;
+    /* padding: 60px 0; */
 }
 .contact-us .form-control{
-    font-size: 28px;
+    font-size: 14pt;
     font-family: Hobo Std;
     color: #908e8b;
     border-radius: inherit;
@@ -93,20 +115,20 @@ header ul li a{
 .contact-us button {
 }
 .contact-us .sent-button{
-	font-family: Hobo Std;
-	font-size: 36px;
-	padding: 0px 40px;
-	background: #24221d;
-	color: #ffffff;
-	border-radius: inherit;
-	border: none;
+    font-family: Hobo Std;
+    font-size: 18pt;
+    padding: 5px 40px;
+    background: #24221d;
+    color: #ffffff;
+    border-radius: inherit;
+    border: none;
 }
 .contact-us span{
 }
 footer{
     background: #393630;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 16pt;
     font-family: Hobo Std;
     padding: 0px 0;
     overflow: hidden;
