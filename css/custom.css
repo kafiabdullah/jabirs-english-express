@@ -10,7 +10,10 @@ header{
     font-style: normal;
     color: white;
     text-transform: uppercase;
-    font-size: 14pt;
+    font-size: 12pt;
+}
+header nav{
+    height: 75px;
 }
 header a img{
     width: 60px;
@@ -30,12 +33,12 @@ header ul li a{
 }
 .about-us{}
 .about-us h1{
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: forte;
     text-transform: uppercase;
 }
 .about-us p{
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: Myriad Pro;
     margin: 20px 50px;
 }
@@ -48,7 +51,7 @@ header ul li a{
 }
 .book-img img {
     box-sizing: border-box;
-    box-shadow: 20px 20px 25px 15px #11100e;
+    box-shadow: 10px 10px 25px 0 #11100e;
 }
 .challenge-section{
     padding: 50px 0;
@@ -56,7 +59,7 @@ header ul li a{
 .challenge-content{}
 .challenge-content h1{
     text-align: center;
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: forte;
     text-transform: uppercase;
 }
@@ -64,7 +67,6 @@ header ul li a{
 .challenge-img img{}
 .challenge-content-p{
     font-family: Myriad Pro;
-    padding: 40px 0px;
 }
 .challenge-content-p img{
     float: left;
@@ -74,8 +76,8 @@ header ul li a{
 }
 .challenge-content-p p{
     text-align: left;
-    font-size: 14pt;
-    padding: 25px 0;
+    font-size: 12pt;
+    padding: 35px 0;
     font-family: Myriad Pro;
 }
 .contact{
@@ -97,7 +99,7 @@ header ul li a{
 .contact-us .form-group{width: 100%;padding: 5px 18%;}
 .contact-us h1{
     text-align: center;
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: forte;
     text-transform: uppercase;
     color: #ffffff;
@@ -105,7 +107,7 @@ header ul li a{
     /* padding: 60px 0; */
 }
 .contact-us .form-control{
-    font-size: 14pt;
+    font-size: 12pt;
     font-family: Hobo Std;
     color: #908e8b;
     border-radius: inherit;
@@ -116,25 +118,37 @@ header ul li a{
 }
 .contact-us .sent-button{
     font-family: Hobo Std;
-    font-size: 18pt;
+    font-size: 16pt;
     padding: 5px 40px;
     background: #24221d;
     color: #ffffff;
     border-radius: inherit;
     border: none;
+    text-transform: uppercase;
+}
+.contact-us .sent-button:hover{
+    font-family: Hobo Std;
+    font-size: 16pt;
+    padding: 5px 40px;
+    background:#ffffff;
+    color: #24221d;
+    border-radius: inherit;
+    border: none;
+    text-transform: uppercase;
 }
 .contact-us span{
 }
 footer{
-    background: #393630;
+    background-color: #393630;
     color: #ffffff;
-    font-size: 16pt;
+    font-size: 12pt;
     font-family: Hobo Std;
-    padding: 0px 0;
     overflow: hidden;
+    height: 75px;
+
 }
 .footer-content{
-    padding: 20px 0;
+    padding: 25px 0;
 }
 .copyright{
     float: left;
@@ -147,3 +161,7 @@ footer{
 .made p span{
     color: red;
 }
+/* Credit:
+  Md.Abdullah(kafi)
+  https://www.facebook.com/kafiabdullah27
+ */

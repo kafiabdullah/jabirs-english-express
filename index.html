@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,6 +10,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css"/>
 
     <title>Jabir's English Express</title>
   </head>
@@ -16,10 +19,10 @@
 
     <!-- header section -->
     
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light  sticky-top navbar-fixed-top">
+    <header class="sticky-top" >
+      <nav class="navbar navbar-expand-lg navbar-dark  sticky-top navbar-fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+          <a class="navbar-brand" href="#top"><img src="images/logo.png" alt="logo"></a>
           <span>Jabir’s english express</span>
           <button class="navbar-toggler toggler_color" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,7 +48,7 @@
     <!-- header section -->
 
     <!-- banner section -->
-    <section class="banner">
+    <section class="banner" id="top">
       <img src="images/banner.png" class="img-fluid" alt="banner">
     </section>
     <!-- banner section -->
@@ -73,18 +76,22 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <div class="book-img">
-              <img src="images/book1.png" class="img-fluid" alt="book">
+            <div class="book-img wow zoomIn">
+              <a data-fancybox="gallery" href="images/book1.png"><img src="images/book1.png" class="img-fluid" alt="book">
+              </a>
+              
+            </div>
+          </div>
+          <div class="col-md-4 ">
+            <div class="book-img wow zoomIn">
+             <a data-fancybox="gallery" href="images/book2.png"><img src="images/book2.png" class="img-fluid" alt="book">
+              </a>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="book-img">
-              <img src="images/book2.png" class="img-fluid" alt="book">
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="book-img">
-              <img src="images/book3.png" class="img-fluid" alt="book">
+            <div class="book-img wow zoomIn">
+              <a data-fancybox="gallery" href="images/book3.png"><img src="images/book3.png" class="img-fluid" alt="book">
+              </a>
             </div>
           </div>
         </div>
@@ -138,7 +145,7 @@
           </div>
             <div class="form-group col-md mail-form">
           
-            <textarea class="form-control" rows="8">Your Message....</textarea>
+            <textarea class="form-control" placeholder="Your Message...." rows="8"></textarea>
 
           </div>
          <span> <button type="button" class="btn btn-secondary sent-button">send us</button></span>
@@ -170,11 +177,21 @@
       </div>
     </footer>
     <!-- footer section -->
-
-    <!-- Optional JavaScript -->
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
-    <script src="js/bootstrap.min.js""></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+              new WOW().init();
+              </script>
   </body>
 </html>
+
+<!-- Credit:
+  Md.Abdullah(kafi)
+  https://www.facebook.com/kafiabdullah27
+ -->
