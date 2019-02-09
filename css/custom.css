@@ -3,6 +3,16 @@
     src: url(../font/Forte.ttf);
     font-style: normal;
 }
+@font-face{
+    font-family: Hobo Std;
+    src: url(../font/Hobo-Std-Medium_22891.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family: gautami;
+    src: url(../font/gautami.ttf);
+    font-style: normal;
+}
 body{}
 header{
     background: #24221d;
@@ -77,7 +87,7 @@ header ul li a{
 .challenge-content-p p{
     text-align: left;
     font-size: 12pt;
-    padding: 35px 0;
+    padding: 50px 0;
     font-family: Myriad Pro;
 }
 .contact{
